@@ -1,0 +1,7 @@
+<block wx:if="{{$taroCompReady}}">
+    <view class="index"><text>ip: {{url}}</text>
+        <button size="mini" bindtap="anonymousFunc0">按钮</button>
+        <button size="mini" bindtap="anonymousFunc1">上</button>
+        <button size="mini" bindtap="anonymousFunc2">下</button>
+    </view>
+</block>
